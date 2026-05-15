@@ -64,18 +64,8 @@ body:
       required: true
 
   - type: textarea
-    id: references
-    attributes:
-      label: "Related logs/screenshots/context (optional)"
-      description: |
-        If this request is motivated by an issue, include:
-        - A small relevant log snippet (timestamp block only, not full file)
-        - Screenshots
-        - Any linked issue numbers
-      placeholder: "Add references here."
-
-  - type: textarea
     id: additional
     attributes:
       label: "Additional context"
+      description: "Optional supporting context such as screenshots, linked issues, or examples."
       placeholder: "Anything else we should know?"

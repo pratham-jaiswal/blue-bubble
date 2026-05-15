@@ -84,11 +84,11 @@ body:
     attributes:
       label: "Relevant logs (snippet only)"
       description: |
-        Do not paste the entire log file.
+        Try not to paste the entire log file.
         Open Shared/logs/chat_server.log, find the matching timestamp block, and paste only that block.
         Include request path/model details if available.
+        You can drag-and-drop the log file or screenshot directly into this field if needed.
       placeholder: "Paste the relevant log block(s) here."
-      render: shell
     validations:
       required: true
 
