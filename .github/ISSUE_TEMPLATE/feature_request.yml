@@ -1,9 +1,12 @@
 name: Feature request
-description: Suggest an improvement with clear problem, proposal, and expected impact.
+description: "Suggest an improvement with clear problem, proposal, and expected impact."
 title: "[Feature] "
+
 labels:
   - enhancement
+
 assignees: []
+
 body:
   - type: markdown
     attributes:
@@ -14,41 +17,41 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: Problem statement
-      description: What pain point are you facing today?
-      placeholder: Describe the current limitation or friction.
+      label: "Problem statement"
+      description: "What pain point are you facing today?"
+      placeholder: "Describe the current limitation or friction."
     validations:
       required: true
 
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed solution
-      description: What should be added or changed?
-      placeholder: Describe the feature and how it should work.
+      label: "Proposed solution"
+      description: "What should be added or changed?"
+      placeholder: "Describe the feature and how it should work."
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives considered
-      description: Any workaround or alternate approach you tried?
-      placeholder: List alternatives and why they are not enough.
+      label: "Alternatives considered"
+      description: "Any workaround or alternate approach you tried?"
+      placeholder: "List alternatives and why they are not enough."
 
   - type: textarea
     id: impact
     attributes:
-      label: Expected impact
-      description: Who benefits and how?
-      placeholder: Explain expected UX, reliability, or performance gains.
+      label: "Expected impact"
+      description: "Who benefits and how?"
+      placeholder: "Explain expected UX, reliability, or performance gains."
     validations:
       required: true
 
   - type: dropdown
     id: platform
     attributes:
-      label: Target platform(s)
+      label: "Target platform(s)"
       multiple: true
       options:
         - Windows
@@ -63,16 +66,16 @@ body:
   - type: textarea
     id: references
     attributes:
-      label: Related logs/screenshots/context (optional)
+      label: "Related logs/screenshots/context (optional)"
       description: |
         If this request is motivated by an issue, include:
         - A small relevant log snippet (timestamp block only, not full file)
         - Screenshots
         - Any linked issue numbers
-      placeholder: Add references here.
+      placeholder: "Add references here."
 
   - type: textarea
     id: additional
     attributes:
-      label: Additional context
-      placeholder: Anything else we should know?
+      label: "Additional context"
+      placeholder: "Anything else we should know?"
